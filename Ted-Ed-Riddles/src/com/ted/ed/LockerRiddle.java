@@ -21,6 +21,9 @@ you want to figure it out for yourself! || I was able to solve this in the car, 
 public class LockerRiddle {
     public static void main(String[] args) {
         System.out.println("The locker remains open shown below:");
+
+        // Referred to this https://www.geeksforgeeks.org/arrays-in-java/
+        // for initialization of java array
         int []locker;
         locker = new int[100] ; // 0 for close, 1 for open
 
