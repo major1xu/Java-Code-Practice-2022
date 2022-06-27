@@ -32,6 +32,7 @@ public class LockerRiddle {
         {
             for(int locker_index=0; locker_index < 100; locker_index++)
             {
+                // This is to flip the locker status
                 if( (locker_index+1) % heir == 0) {
                     locker[locker_index] = 1 - locker[locker_index];
                 }
@@ -43,5 +44,7 @@ public class LockerRiddle {
                 System.out.println("locker: " + (i+1) );
             }
         }
+        // PS: for this problem, we can use analytical method to find a pattern.
+        // But for more complicated problems, computer could be helpful.
     }
 }
