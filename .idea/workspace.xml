@@ -5,12 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="006de4f0-5e89-437a-b023-1a5183681133" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Ted-Ed-Riddles/src/com/freightflock/ElevatorSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ted-Ed-Riddles/src/com/freightflock/ElevatorSelector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ted-Ed-Riddles/src/com/example/helloworld/AdditionWithoutCarrying.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ted-Ed-Riddles/src/com/example/helloworld/HelloWorld.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Code-Practice-2022/com/example/helloworld/HelloWorld.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -34,9 +44,9 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.HelloWorld">
-    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.helloworld.HelloWorld" />
+  <component name="RunManager" selected="Application.AdditionWithoutCarrying">
+    <configuration name="AdditionWithoutCarrying" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.helloworld.AdditionWithoutCarrying" />
       <module name="Java-Code-Practice-2022" />
       <extension name="coverage">
         <pattern>
@@ -69,12 +79,12 @@
     </configuration>
     <list>
       <item itemvalue="Application.Unnamed" />
-      <item itemvalue="Application.HelloWorld" />
+      <item itemvalue="Application.AdditionWithoutCarrying" />
       <item itemvalue="Application.LockerRiddle" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HelloWorld" />
+        <item itemvalue="Application.AdditionWithoutCarrying" />
         <item itemvalue="Application.LockerRiddle" />
       </list>
     </recent_temporary>
