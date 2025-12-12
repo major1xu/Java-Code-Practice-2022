@@ -42,7 +42,7 @@ import java.util.*;
 
 interface elevatorSelector
 {
-    int selectElevator(ElevatorSystem es, Passenger p, , int destination_floor);
+    int selectElevator(ElevatorSystem es, Passenger p, int destination_floor);
 }
 
 class ElevatorSelector {
@@ -73,7 +73,7 @@ class ElevatorSystem implements elevatorSelector {
         es_1 = es;
     }
 
-    public travel(Elevator elevator, Passenger passenger, int destination_floor)
+    public void travel(Elevator elevator, Passenger passenger, int destination_floor)
     {
         // take passgener
     }
