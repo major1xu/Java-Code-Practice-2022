@@ -3,7 +3,7 @@ package com.example.helloworld;
 /*
 CodeSignal.
 
-The problem is to add like a kid would do without carrying values: e.g.,
+The problem is to add like a person does addition without carrying values: e.g.,
    453
 + 1748 will be
 ------
@@ -34,7 +34,7 @@ public class AdditionWithoutCarrying {
         do {
             param2_array[ii] = remainder % 10;
             remainder = remainder / 10;
-            System.out.println("converting param to array: param1_array[ii]= " + param2_array[ii]  + "; " + remainder + "=" + remainder );
+            System.out.println("converting param to array: param2_array[ii]= " + param2_array[ii]  + "; " + remainder + "=" + remainder );
             ii++;
         } while(remainder>=1);
 
@@ -42,7 +42,7 @@ public class AdditionWithoutCarrying {
         ii = 0;
         while(param1_array[ii] >=1 || param2_array[ii]>=1 ) {
             sum[ii] = (param1_array[ii] + param2_array[ii]) % 10;
-            System.out.println("converting param to array: param1_array[ii]= " + param2_array[ii]  + "; " + sum[ii] + "=" + sum[ii] );
+            System.out.println("param1_array[ii] " + param1_array[ii]  + " + param2_array[ii] "+ param2_array[ii]  + " = sum[ii] " + sum[ii] );
             ii++;
         }
 
