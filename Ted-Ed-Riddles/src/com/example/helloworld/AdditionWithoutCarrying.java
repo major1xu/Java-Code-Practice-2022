@@ -9,7 +9,7 @@ The problem is to add like a person does addition without carrying values: e.g.,
 ------
   1191
 
-My solution (java) is to convert 2 parameters into arrays (done), then adding them in each place (not completed, but verbalized it)
+My solution (java) is to convert 2 parameters into arrays (done), then adding them in each place.
 
  */
 import java.io.*;
