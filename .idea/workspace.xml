@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="006de4f0-5e89-437a-b023-1a5183681133" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/,gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ted-Ed-Riddles/src/com/example/helloworld/ThreadExcrcise.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ted-Ed-Riddles/src/com/example/helloworld/AdditionWithoutCarrying.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ted-Ed-Riddles/src/com/example/helloworld/AdditionWithoutCarrying.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +43,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.AdditionWithoutCarrying">
+  <component name="RunManager" selected="Application.ThreadExcrcise (1)">
     <configuration name="AdditionWithoutCarrying" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.helloworld.AdditionWithoutCarrying" />
       <module name="Java-Code-Practice-2022" />
@@ -69,6 +70,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThreadExcrcise (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.helloworld.ThreadExcrcise" />
+      <module name="Java-Code-Practice-2022" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.helloworld.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadExcrcise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.helloworld.ThreadExcrcise" />
+      <module name="Java-Code-Practice-2022" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.helloworld.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
       <module name="Java-Code-Practice-2022" />
       <method v="2">
@@ -77,11 +104,15 @@
     </configuration>
     <list>
       <item itemvalue="Application.Unnamed" />
+      <item itemvalue="Application.ThreadExcrcise" />
+      <item itemvalue="Application.ThreadExcrcise (1)" />
       <item itemvalue="Application.AdditionWithoutCarrying" />
       <item itemvalue="Application.LockerRiddle" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadExcrcise (1)" />
+        <item itemvalue="Application.ThreadExcrcise" />
         <item itemvalue="Application.AdditionWithoutCarrying" />
         <item itemvalue="Application.LockerRiddle" />
       </list>
