@@ -1,4 +1,5 @@
-### another place I may refer to: https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
+### https://intellij-support.jetbrains.com/hc/en-us/articles/206544839-How-to-manage-projects-under-Version-Control-Systems
+### source: https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
 # Covers JetBrains IDEs: IntelliJ, GoLand, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
@@ -85,9 +86,8 @@ http-client.private.env.json
 
 # Github Copilot persisted session migrations, see: https://github.com/microsoft/copilot-intellij-feedback/issues/712#issuecomment-3322062215
 .idea/**/copilot.data.migration.*.xml
-### https://intellij-support.jetbrains.com/hc/en-us/articles/206544839-How-to-manage-projects-under-Version-Control-Systems
 
-### Below is from 
+### Below is from
 ### source: https://gist.github.com/fedir/cd58012d42c8c1edbb3fff611de6c2f6
 
 /target/
