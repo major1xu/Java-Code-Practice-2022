@@ -60,5 +60,15 @@ public class AdditionWithoutCarrying {
         int param2 = 1748;
         int sum = additionWithoutCarrying(param1, param2);
         System.out.println("Addition Without Carrying: " + param1 + "+" + param2 + "=" + sum );
+
+        param1 = 100;
+        param2 = 100;
+        sum = additionWithoutCarrying(param1, param2);
+        System.out.println("Addition Without Carrying: " + param1 + "+" + param2 + "=" + sum );
+
+        param1 = 100;
+        param2 = 1;
+        sum = additionWithoutCarrying(param1, param2);
+        System.out.println("Addition Without Carrying: " + param1 + "+" + param2 + "=" + sum );
     }
 }
