@@ -70,5 +70,10 @@ public class AdditionWithoutCarrying {
         param2 = 1;
         sum = additionWithoutCarrying(param1, param2);
         System.out.println("Addition Without Carrying: " + param1 + "+" + param2 + "=" + sum );
+
+        param1 = 1;
+        param2 = 1;
+        sum = additionWithoutCarrying(param1, param2);
+        System.out.println("Addition Without Carrying: " + param1 + "+" + param2 + "=" + sum );
     }
 }
