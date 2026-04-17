@@ -52,11 +52,11 @@ public class StringTokens {
         // refer to example 6
         // Explanation: The regex splits the string at any listed symbol. + ensures consecutive delimiters are treated as one.
         String regex = "[, '!?.@_]+";
-        if(s.length()==0) {
+        String s2 = s.strip();
+        if(s2.length()==0) {
             System.out.println(0);
         }
         else {
-            String s2 = s.strip();
             String[] arr = s2.split(regex);
             System.out.println(arr.length);
 
