@@ -51,12 +51,18 @@ public class StringTokens {
         // https://www.geeksforgeeks.org/java/split-string-java-examples/
         // refer to example 6
         // Explanation: The regex splits the string at any listed symbol. + ensures consecutive delimiters are treated as one.
-        String regex = "[, '!?.@]+";
-        String[] arr = s.split(regex);
-        System.out.println(arr.length);
+        String regex = "[, '!?.@_]+";
+        if(s.length()==0) {
+            System.out.println(0);
+        }
+        else {
+            String s2 = s.strip();
+            String[] arr = s2.split(regex);
+            System.out.println(arr.length);
 
-        for (String str : arr) {
-            System.out.println(str);
+            for (String str : arr) {
+                System.out.println(str);
+            }
         }
         scan.close();
     }
