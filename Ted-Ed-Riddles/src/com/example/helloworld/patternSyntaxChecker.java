@@ -4,7 +4,7 @@ package com.example.helloworld;
 ([a]+)(.+)
 [.]+
 [.]*
-[ ]*
+\\s*
 [AAAAAAAAAAAAAAAAAAAAAAAA]*
 
 why java pattern compile failed for [ ]*
