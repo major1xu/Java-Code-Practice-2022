@@ -99,6 +99,7 @@ public class SongTimes {
                 if (sum >= 6.99 && sum <= 7.01) {
                     System.out.println(first_sing_name + ":" + first_song_length);
                     System.out.println(second_song_name + ":" + second_song_length);
+                    System.out.println("============");
                     break;
                 }
             }
