@@ -123,31 +123,51 @@ public class SongTimes {
                 {"The Crunge", "3:18"}, {"Achilles Last Stand", "10:26"},
                 {"The Ocean", "4:31"}, {"Hot Dog", "3:19"}
         };
+
+        findPair(songTimes2);
+
         String[][] songTimes3 = {
                 {"Stairway to Heaven", "8:05"}, {"Immigrant Song", "2:27"},
                 {"Rock and Roll", "3:41"}, {"Communication Breakdown", "2:29"},
                 {"Hey Hey What Can I Do", "4:00"}, {"Poor Tom", "3:00"},
                 {"Black Dog", "4:55"}
         };
+
+        findPair(songTimes3);
+
         String[][] songTimes4 = {
                 {"Hey Hey What Can I Do", "4:00"}, {"Rock and Roll", "3:41"},
                 {"Communication Breakdown", "2:29"}, {"Going to California", "3:30"},
                 {"On The Run", "3:50"}, {"The Wrestler", "3:50"},
                 {"Black Mountain Side", "2:11"}, {"Brown Eagle", "2:20"}
         };
+
+        findPair(songTimes4);
+
         String[][] songTimes5 = {
                 {"Celebration Day", "3:30"}, {"Going to California", "3:30"},
                 {"Take it easy", "3:30"}
         };
+
+        findPair(songTimes5);
+
         String[][] songTimes6 = {
                 {"Rock and Roll", "3:41"}, {"If I lived here", "3:59"},
                 {"Day and night", "5:03"}, {"Tempo song", "1:57"}
         };
+
+        findPair(songTimes6);
+
         String[][] songTimes7 = {
                 {"Black Dog", "4:55"}, {"Living Loving Maid", "2:05"}
         };
+
+        findPair(songTimes7);
+
         String[][] songTimes8 = {
                 {"Communication Breakdown", "2:29"}, {"Tea for One", "9:27"}
         };
+
+        findPair(songTimes8);
     }
 }
