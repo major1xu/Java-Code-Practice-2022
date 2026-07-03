@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="006de4f0-5e89-437a-b023-1a5183681133" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Ted-Ed-Riddles/src/com/freightflock/SongTimes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ted-Ed-Riddles/src/com/example/helloworld/patternSyntaxChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ted-Ed-Riddles/src/com/example/helloworld/patternSyntaxChecker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ted-Ed-Riddles/src/com/ted/ed/LockerRiddle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ted-Ed-Riddles/src/com/ted/ed/LockerRiddle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,20 +43,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.LockerRiddle">
-    <configuration name="AdditionWithoutCarrying" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.helloworld.AdditionWithoutCarrying" />
-      <module name="Java-Code-Practice-2022" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.helloworld.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SongTimes">
     <configuration name="Anagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.helloworld.Anagrams" />
       <module name="Java-Code-Practice-2022" />
@@ -76,6 +63,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.ted.ed.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SongTimes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.freightflock.SongTimes" />
+      <module name="Java-Code-Practice-2022" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.freightflock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,19 +117,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Unnamed" />
+      <item itemvalue="Application.SongTimes" />
       <item itemvalue="Application.LockerRiddle" />
       <item itemvalue="Application.Anagrams" />
       <item itemvalue="Application.StringTokens" />
       <item itemvalue="Application.patternSyntaxChecker" />
-      <item itemvalue="Application.AdditionWithoutCarrying" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SongTimes" />
         <item itemvalue="Application.LockerRiddle" />
         <item itemvalue="Application.patternSyntaxChecker" />
         <item itemvalue="Application.StringTokens" />
         <item itemvalue="Application.Anagrams" />
-        <item itemvalue="Application.AdditionWithoutCarrying" />
       </list>
     </recent_temporary>
   </component>
