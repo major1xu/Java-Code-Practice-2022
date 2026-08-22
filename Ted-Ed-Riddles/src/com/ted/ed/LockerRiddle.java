@@ -49,5 +49,8 @@ public class LockerRiddle {
         }
         // PS: for this problem, we can use analytical method to find a pattern.
         // But for more complicated problems, computer could be helpful.
+        // Analysis:
+        // Think the factors of a number, 100 has factors: 1, 2, 4, 5, 10, 20, 25, 50 and 100 (total 9)
+        // All square (square of numbers) have odd number of factors
     }
 }
