@@ -1,7 +1,10 @@
 # mxu own
+# https://www.google.com/search?q=why+gitignore+is+not+picking+up+files+under+idea+folder&oq=why+.gitignore+is+not+picking+up+files+under+.idea&gs_lcrp=EgZjaHJvbWUqBwgBECEYnwUyBggAEEUYOTIHCAEQIRifBTIHCAIQIRiPAjIHCAMQIRiPAtIBCTExMDgxajBqN6gCALACAA&sourceid=chrome&source=chrome.ob&ie=UTF-8
+#
 *.class
 ./out/*
-.idea/workspace.xml
+.idea/*.xml
+./Ted-Ed-Riddles/out/*
 
 ### https://intellij-support.jetbrains.com/hc/en-us/articles/206544839-How-to-manage-projects-under-Version-Control-Systems
 ### source: https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
