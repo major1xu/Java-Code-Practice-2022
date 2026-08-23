@@ -18,7 +18,6 @@ class Passenger {
         this.passenger_number = passenger_number;
     }
 
-
     public void callElevator(ElevatorSystem elevatorSystem, int destination_floor)
     {
         //elevatorSystem.selectElevator(elevatorSystem, destination_floor);

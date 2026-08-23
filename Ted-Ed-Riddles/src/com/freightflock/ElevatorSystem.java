@@ -94,9 +94,10 @@ class ElevatorSystem implements elevatorSelector {
         }
     }
 
-    public void travel(Elevator elevator, Passenger passenger, int destination_floor)
+    public void travel(int elevator_number, int passenger_number, int destination_floor)
     {
-        // take passenger
+        // take passenger to the new floor, assume the travel time is zero
+        elevatorList.get(elevator_number).setCurrent_floor(destination_floor);
     }
 
     // TBD: simulate 10 persons arrives at different floors at the same time, the floors are random between 1 and 100
@@ -105,16 +106,23 @@ class ElevatorSystem implements elevatorSelector {
         ElevatorSystem elevatorSystem = new ElevatorSystem();
         Random rand = new Random();
 
-        // Generates a random integer from 0 (inclusive) to 10 (exclusive)
-        int boundedInt = rand.nextInt(10);
+        // Generates a random integer from 0 (inclusive) to 100(exclusive)
+        int seriesSize = 10;
+        int min = 1;
+        int max = 100;
 
-        Passenger passenger = new Passenger(boundedInt, 1);
-        System.out.println("passenger floor=" + boundedInt);
+        for (int i = 0; i < seriesSize; i++) {
+            // nextInt(min, max) is available in Java 17+
+            // For older versions, use: random.nextInt(max - min) + min;
+            int randomNum = rand.nextInt(min, max);
+            //System.out.println(randomNum);
+            Passenger passenger = new Passenger(randomNum, 1);
+            System.out.println("passenger floor=" + randomNum);
 
-        int elevator_number = elevatorSystem.selectElevator(elevatorSystem, passenger, 100);
-        System.out.println("elevator_number=" + (elevator_number+1) + " elevator floor="+
-                elevatorSystem.elevatorList.get(elevator_number).getCurrent_floor());
-
-
+            int elevator_number = elevatorSystem.selectElevator(elevatorSystem, passenger, 100);
+            elevatorSystem.travel(elevator_number, i, randomNum);
+            System.out.println("elevator_number=" + (elevator_number+1) + " elevator floor="+
+                    elevatorSystem.elevatorList.get(elevator_number).getCurrent_floor());
+        }
     }
 }
