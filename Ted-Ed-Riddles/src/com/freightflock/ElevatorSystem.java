@@ -63,7 +63,7 @@ class ElevatorSystem implements elevatorSelector {
         // up or down does not matter, we only look at the floor levels
         int closest_elevator = 0;
 
-        System.out.println(elevatorList.size());
+        //System.out.println(elevatorList.size());
 
         int floor_difference = Math.abs(passenger_floor - elevatorList.get(0).getCurrent_floor());
 
@@ -77,7 +77,7 @@ class ElevatorSystem implements elevatorSelector {
         }
 
         // serve the passenger
-        System.out.println(closest_elevator);
+        //System.out.println(closest_elevator);
         return closest_elevator;
     }
 
@@ -89,7 +89,7 @@ class ElevatorSystem implements elevatorSelector {
         for(int ii = 0; ii < 10; ii++)
         {
             Elevator newElevator = new Elevator();
-            newElevator.setCurrent_floor(1);
+            newElevator.setCurrent_floor(1); // a good test is ii+1
             elevatorList.add(newElevator);
         }
     }
@@ -103,7 +103,9 @@ class ElevatorSystem implements elevatorSelector {
     {
         ElevatorSystem elevatorSystem = new ElevatorSystem();
         Passenger passenger = new Passenger(10, 1);
-        elevatorSystem.selectElevator(elevatorSystem, passenger, 100);
+        System.out.println("passenger floor=" + 10);
+        int elevator_number = elevatorSystem.selectElevator(elevatorSystem, passenger, 100);
+        System.out.println("elevator_number=" + (elevator_number+1) + " elevator floor="+
+                elevatorSystem.elevatorList.get(elevator_number).getCurrent_floor());
     }
-
 }
