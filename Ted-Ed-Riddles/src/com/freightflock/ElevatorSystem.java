@@ -48,7 +48,6 @@ requirements:
 
 class ElevatorSystem implements elevatorSelector {
     ArrayList<Elevator> elevatorList = new ArrayList<Elevator>(10);
-    //ElevatorSelector es_1;
 
     /*
    You will need to create a default elevator selector that selects the elevator
@@ -57,26 +56,54 @@ class ElevatorSystem implements elevatorSelector {
    */
     public int selectElevator(ElevatorSystem es, Passenger p, int destination_floor)
     {
-        // default
         // sort elevators, find elevator which is closet to passenger's floor
-        int passenger_floor =
+        int passenger_floor = p.getFloor();
 
-        //es_1.select();
+        // Pick an elevator that is closet to the passenger floor, if tied, it will pick the first one on the elevator list
+        // up or down does not matter, we only look at the floor levels
+        int closest_elevator = 0;
+
+        System.out.println(elevatorList.size());
+
+        int floor_difference = Math.abs(passenger_floor - elevatorList.get(0).getCurrent_floor());
+
+        for(int ii = 1; ii < 10; ii++)
+        {
+            if( floor_difference > (Math.abs(passenger_floor - elevatorList.get(ii).getCurrent_floor())) )
+            {
+                closest_elevator = ii;
+                floor_difference = Math.abs(passenger_floor - elevatorList.get(ii).getCurrent_floor());
+            }
+        }
 
         // serve the passenger
-        return 0;
+        System.out.println(closest_elevator);
+        return closest_elevator;
     }
 
-    public ElevatorSystem(
-    //        ElevatorSelector es
-    )
+    public ElevatorSystem()
     {
+        elevatorList = new ArrayList<Elevator>(10);
+
         // initialization, set all elevators current floor to ground floor
-        //es_1 = es;
+        for(int ii = 0; ii < 10; ii++)
+        {
+            Elevator newElevator = new Elevator();
+            newElevator.setCurrent_floor(1);
+            elevatorList.add(newElevator);
+        }
     }
 
     public void travel(Elevator elevator, Passenger passenger, int destination_floor)
     {
         // take passenger
     }
+
+    public static void main(String[] args)
+    {
+        ElevatorSystem elevatorSystem = new ElevatorSystem();
+        Passenger passenger = new Passenger(10, 1);
+        elevatorSystem.selectElevator(elevatorSystem, passenger, 100);
+    }
+
 }
