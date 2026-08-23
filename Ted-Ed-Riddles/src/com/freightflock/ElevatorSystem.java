@@ -3,8 +3,10 @@ package com.freightflock;
 import java.util.*;
 
 /*
-note: work in progress, not done yet - this was a Karat code interview done in April 2022, if my memory is correct.
-That Karat interviewer is fairly nice, again if my memory is correct.
+note: work in progress, not done yet -
+
+I looked at my gmail. This was a "Flock Freight" code interview done (via SignalFire) in April 2022.
+The hiring company Flock Freight interviewer/engineer is fairly nice.
 
 This assignment somewhat reminds me of a similar one many year ago
 https://github.com/major1xu/QueueingSimulation
