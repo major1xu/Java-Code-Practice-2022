@@ -1,8 +1,15 @@
 package com.freightflock;
 
-/*
-note: work in progress, not done yet
+import java.util.*;
 
+/*
+note: work in progress, not done yet - this was a Karat code interview done in April 2022, if my memory is correct.
+That Karat interviewer is fairly nice, again if my memory is correct.
+
+This assignment somewhat reminds me of a similar one many year ago
+https://github.com/major1xu/QueueingSimulation
+
+======
 Your task is to create a simplified elevator system with the following
 requirements:
 
@@ -18,13 +25,13 @@ requirements:
 
  - You will need to create a default elevator selector that selects the elevator
    closest to the floor the passenger is requesting from. Tie breaks are at your
-   discretion. 
+   discretion.
 
  - The number of elevators and floors in the system must be provided when the
    system is created. The system should support up to 10 elevators and up to 100
    floors.
 
- - When the system is first started, every elevator must be on the ground floor.
+ - When the system is first started, every elevator must be on the groundfloor.
 
  - In this system, the call button panel that is typically found inside an
    elevator is instead found on each floor. Passengers must press a call button
@@ -38,53 +45,38 @@ requirements:
    floor, to the request floor to pick up the passenger, and finally to the
    destination floor. There is no notion of time in this system.
 */
-import java.util.*;
-
-interface elevatorSelector
-{
-    int selectElevator(ElevatorSystem es, Passenger p, int destination_floor);
-}
-
-class ElevatorSelector {
-    public int select();
-}
-
-class Elevator {
-    int current_floor;
-}
 
 class ElevatorSystem implements elevatorSelector {
     ArrayList<Elevator> elevatorList = new ArrayList<Elevator>(10);
-    ElevatorSelector es_1;
+    //ElevatorSelector es_1;
 
-    int selectElevator(ElevatorSystem es, Passenger p, int destination_floor)
+    /*
+   You will need to create a default elevator selector that selects the elevator
+   closest to the floor the passenger is requesting from. Tie breaks are at your
+   discretion.
+   */
+    public int selectElevator(ElevatorSystem es, Passenger p, int destination_floor)
     {
         // default
-        // sort elevators, find elevator which is cloest to to passenger's floor
+        // sort elevators, find elevator which is closet to passenger's floor
+        int passenger_floor =
 
-        es_1.select();
+        //es_1.select();
 
         // serve the passenger
+        return 0;
     }
 
-    public ElevatorSystem(ElevatorSelector es)
+    public ElevatorSystem(
+    //        ElevatorSelector es
+    )
     {
         // initialization, set all elevators current floor to ground floor
-        es_1 = es;
+        //es_1 = es;
     }
 
     public void travel(Elevator elevator, Passenger passenger, int destination_floor)
     {
-        // take passgener
-    }
-}
-
-class Passenger {
-    int current_floor;
-
-    // call button
-    public void callElevator(Passgenger passgenger, ElevatorSystem elevatorSystem, int destination_floor)
-    {
-        elevatorSystem.selectElevator(elevatorSystem, passgenger, destination_floor);
+        // take passenger
     }
 }
