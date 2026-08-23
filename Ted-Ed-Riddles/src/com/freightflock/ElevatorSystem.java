@@ -99,13 +99,22 @@ class ElevatorSystem implements elevatorSelector {
         // take passenger
     }
 
+    // TBD: simulate 10 persons arrives at different floors at the same time, the floors are random between 1 and 100
     public static void main(String[] args)
     {
         ElevatorSystem elevatorSystem = new ElevatorSystem();
-        Passenger passenger = new Passenger(10, 1);
-        System.out.println("passenger floor=" + 10);
+        Random rand = new Random();
+
+        // Generates a random integer from 0 (inclusive) to 10 (exclusive)
+        int boundedInt = rand.nextInt(10);
+
+        Passenger passenger = new Passenger(boundedInt, 1);
+        System.out.println("passenger floor=" + boundedInt);
+
         int elevator_number = elevatorSystem.selectElevator(elevatorSystem, passenger, 100);
         System.out.println("elevator_number=" + (elevator_number+1) + " elevator floor="+
                 elevatorSystem.elevatorList.get(elevator_number).getCurrent_floor());
+
+
     }
 }
